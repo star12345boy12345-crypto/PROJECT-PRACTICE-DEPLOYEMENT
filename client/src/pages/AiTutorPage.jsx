@@ -124,12 +124,17 @@ export default function AiTutorPage() {
     const textToSend = customQuery || inputMessage;
     if (!textToSend.trim() || loading) return;
 
-    if (isListening) stopListening();
+    // Auto-detect Santali query from Ol Chiki script or Santali keywords
+    const isSantaliQuery = /[\u1C50-\u1C7F]/.test(textToSend) || /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ|santali\s+te/i.test(textToSend);
+    const langToUse = isSantaliQuery ? 'sat' : selectedLanguage;
+    if (isSantaliQuery && selectedLanguage !== 'sat') {
+      setSelectedLanguage('sat');
+    }
 
     const userMsg = {
       role: 'user',
       content: textToSend.trim(),
-      language: selectedLanguage,
+      language: langToUse,
     };
 
     setMessages((prev) => [...prev, userMsg]);
@@ -139,10 +144,14 @@ export default function AiTutorPage() {
     try {
       const res = await aiAPI.askChat({
         message: textToSend.trim(),
-        language: selectedLanguage,
+        language: langToUse,
         classLevel,
         subject,
       });
+
+      if (res.data.language && res.data.language !== selectedLanguage) {
+        setSelectedLanguage(res.data.language);
+      }
 
       const aiMsg = {
         role: 'assistant',
@@ -667,7 +676,13 @@ export default function AiTutorPage() {
         <input
           type="text"
           value={inputMessage}
-          onChange={(e) => setInputMessage(e.target.value)}
+          onChange={(e) => {
+            const val = e.target.value;
+            setInputMessage(val);
+            if (/[\u1C50-\u1C7F]/.test(val) || /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ/i.test(val)) {
+              if (selectedLanguage !== 'sat') setSelectedLanguage('sat');
+            }
+          }}
           placeholder={
             selectedLanguage === 'sat'
               ? 'ᱱᱚᱸᱰᱮ ᱠᱩᱠᱞᱤ ᱚᱞ ᱢᱮ (Ask doubt in Santali/English/Odia)...'

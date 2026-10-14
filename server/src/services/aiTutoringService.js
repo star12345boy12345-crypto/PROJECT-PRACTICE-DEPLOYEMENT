@@ -134,6 +134,130 @@ const REGIONAL_KNOWLEDGE_BASE = {
       practiceQuestion: "ᱡᱩᱫᱤ a = 6 ᱟᱨ b = 8 ᱦᱩᱭᱩᱜ-ᱟ, ᱮᱱᱠᱷᱟᱱ c ᱨᱮᱱᱟᱜ ᱢᱟᱱ ᱛᱤᱱᱟᱹᱜ? (ᱛᱮᱞᱟ: 10)",
       suggestedQuizTopic: "Right-Angled Triangles & Geometry"
     }
+  },
+  cell: {
+    en: {
+      topic: "Plant Cell vs Animal Cell",
+      concept: "Cells are the fundamental structural and functional units of all living organisms. Plant cells contain cell walls and chloroplasts, while animal cells do not.",
+      formula: "Cell Wall + Chloroplasts + Large Vacuole = Plant Cell Characteristic",
+      steps: [
+        "Plant cells have a rigid outer Cell Wall made of cellulose; animal cells have only a flexible Cell Membrane.",
+        "Plant cells contain green Chloroplasts for photosynthesis; animal cells do not.",
+        "Plant cells possess a single large central vacuole; animal cells have small, temporary vacuoles."
+      ],
+      realWorld: "A plant stem stays upright like a brick house because of tough cell walls, whereas animal skin is soft and flexible like a balloon.",
+      practiceQuestion: "Which organelle is found in plant cells but absent in animal cells? (Answer: Cell Wall / Chloroplast)",
+      suggestedQuizTopic: "Cell Structure and Functions"
+    },
+    or: {
+      topic: "ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ କୋଷ ମଧ୍ୟରେ ପାର୍ଥକ୍ୟ (Plant vs Animal Cell)",
+      concept: "କୋଷ ହେଉଛି ସମସ୍ତ ଜୀବମାନଙ୍କର ଗଠନମୂଳକ ଓ କାର୍ଯ୍ୟକାରୀ ଏକକ । ଉଦ୍ଭିଦ କୋଷରେ କୋଷଭିତ୍ତି ଓ ହରିତକଣା ଥାଏ, କିନ୍ତୁ ପ୍ରାଣୀ କୋଷରେ ଏହା ନଥାଏ ।",
+      formula: "କୋଷଭିତ୍ତି + ହରିତକଣା + ବୃହତ ରସଧାନୀ = ଉଦ୍ଭିଦ କୋଷର ବିଶେଷତ୍ୱ",
+      steps: [
+        "ଉଦ୍ଭିଦ କୋଷରେ କଠିନ ସେଲ୍ୟୁଲୋଜ୍ ନିର୍ମିତ କୋଷଭିତ୍ତି ଥାଏ, ପ୍ରାଣୀ କୋଷରେ କେବଳ କୋଷଜୀବକ ଝିଲ୍ଲୀ ଥାଏ ।",
+        "ଉଦ୍ଭିଦ କୋଷରେ ଆଲୋକ ଶ୍ଳେଷଣ ପାଇଁ ହରିତକଣା (Chloroplast) ଥାଏ, ପ୍ରାଣୀ କୋଷରେ ନଥାଏ ।",
+        "ଉଦ୍ଭିଦ କୋଷରେ ଗୋଟିଏ ବଡ଼ ରସଧାନୀ ଥାଏ, ପ୍ରାଣୀ କୋଷରେ ଛୋଟ ଛୋଟ ରସଧାନୀ ଥାଏ ।"
+      ],
+      realWorld: "ଗଛର ଡାଳ କାନ୍ଥ ପରି ଶକ୍ତ ରହେ କାରଣ ଏହାର କୋଷଭିତ୍ତି ଅଛି, କିନ୍ତୁ ଆମ ଶରୀର ଚମଡ଼ା ନରମ ଓ ନମନୀୟ ।",
+      practiceQuestion: "କେଉଁ କୋଷାଙ୍ଗ କେବଳ ଉଦ୍ଭିଦ କୋଷରେ ଥାଏ କିନ୍ତୁ ପ୍ରାଣୀ କୋଷରେ ନଥାଏ? (ଉତ୍ତର: କୋଷଭିତ୍ତି / ହରିତକଣା)",
+      suggestedQuizTopic: "କୋଷର ଗଠନ ଓ କାର୍ଯ୍ୟ"
+    },
+    sat: {
+      topic: "ᱫᱟᱨᱮ ᱟᱨ ᱡᱤᱵᱽ ᱠᱳᱥ (Plant Cell vs Animal Cell)",
+      concept: "ᱠᱳᱥ (Cell) ᱫᱚ ᱡᱚᱛᱚ ᱡᱤᱣᱤᱭᱟᱱ ᱡᱤᱱᱤᱥ ᱨᱮᱱᱟᱜ ᱢᱩᱬᱩᱛ ᱜᱚᱲᱦᱚᱱ ᱟᱨ ᱠᱟᱹᱢᱤ ᱦᱚᱨᱟ ᱠᱟᱱᱟ ᱾ ᱫᱟᱨᱮ ᱠᱳᱥ ᱨᱮ ᱠᱳᱥ ᱠᱟᱸᱛ (Cell Wall) ᱟᱨ ᱠᱞᱳᱨᱳᱯᱞᱟᱥᱴ ᱛᱟᱦᱮᱸᱱᱟ, ᱡᱤᱵᱽ ᱠᱳᱥ ᱨᱮᱫᱚ ᱵᱟᱝ ᱛᱟᱦᱮᱸᱱᱟ ᱾",
+      formula: "ᱠᱳᱥ ᱠᱟᱸᱛ + ᱠᱞᱳᱨᱳᱯᱞᱟᱥᱴ = ᱫᱟᱨᱮ ᱠᱳᱥ ᱨᱮᱱᱟᱜ ᱵᱤᱥᱮᱥ ᱜᱩᱬ",
+      steps: [
+        "ᱫᱟᱨᱮ ᱠᱳᱥ (Plant cell) ᱨᱮ ᱠᱮᱴᱮᱡ ᱠᱳᱥ ᱠᱟᱸᱛ (Cell Wall) ᱛᱟᱦᱮᱸᱱᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱥᱮᱞᱩᱞᱳᱡᱽ ᱛᱮ ᱛᱮᱭᱟᱨ ᱟᱠᱟᱱᱟ ᱾",
+        "ᱫᱟᱨᱮ ᱠᱳᱥ ᱨᱮ ᱡᱚᱢᱟᱜ ᱵᱮᱱᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱦᱟᱹᱨᱭᱟᱹᱲ ᱠᱞᱳᱨᱳᱯᱞᱟᱥᱴ (Chloroplast) ᱛᱟᱦᱮᱸᱱᱟ ᱾",
+        "ᱡᱤᱵᱽ ᱠᱳᱥ (Animal cell) ᱨᱮ ᱠᱳᱥ ᱠᱟᱸᱛ ᱵᱟᱝ ᱛᱟᱦᱮᱸᱱᱟ, ᱮᱠᱷᱮᱱ ᱠᱳᱥ ᱡᱷᱤᱞᱞᱤ (Cell Membrane) ᱛᱟᱦᱮᱸᱱᱟ ᱾",
+        "ᱫᱟᱨᱮ ᱠᱳᱥ ᱨᱮ ᱢᱤᱫ ᱢᱟᱨᱟᱝ ᱵᱷᱮᱠᱭᱩᱞ (Vacuole) ᱛᱟᱦᱮᱸᱱᱟ, ᱡᱤᱵᱽ ᱠᱳᱥ ᱨᱮᱫᱚ ᱠᱟᱹᱴᱤᱡ ᱠᱟᱹᱴᱤᱡ ᱛᱟᱦᱮᱸᱱᱟ ᱾"
+      ],
+      realWorld: "ᱪᱮᱫ ᱞᱮᱠᱟ ᱫᱟᱨᱮ ᱰᱟᱹᱨ ᱠᱮᱴᱮᱡ ᱛᱮ ᱛᱤᱸᱜᱩ ᱛᱟᱦᱮᱸᱱᱟ ᱪᱮᱫᱟᱜ ᱥᱮ ᱚᱱᱟ ᱨᱮ ᱠᱳᱥ ᱠᱟᱸᱛ ᱢᱮᱱᱟᱜ-ᱟ, ᱤᱠᱷᱟᱹᱱ ᱟᱵᱚᱣᱟᱜ ᱦᱚᱲᱢᱚ ᱦᱟᱨᱛᱟ ᱫᱚ ᱞᱟᱹᱵᱤᱫ ᱜᱮᱭᱟ ᱾",
+      practiceQuestion: "ᱚᱠᱟ ᱦᱤᱸᱥ ᱫᱚ ᱮᱠᱷᱮᱱ ᱫᱟᱨᱮ ᱠᱳᱥ ᱨᱮ ᱛᱟᱦᱮᱸᱱᱟ ᱟᱨ ᱡᱤᱵᱽ ᱠᱳᱥ ᱨᱮ ᱵᱟᱝ ᱛᱟᱦᱮᱸᱱᱟ? (ᱛᱮᱞᱟ: ᱠᱳᱥ ᱠᱟᱸᱛ / ᱠᱞᱳᱨᱳᱯᱞᱟᱥᱴ)",
+      suggestedQuizTopic: "Cell Structure and Functions"
+    }
+  },
+  ai: {
+    en: {
+      topic: "Artificial Intelligence (AI)",
+      concept: "Artificial Intelligence is the simulation of human intelligence by computer systems to learn, reason, solve problems, and communicate in natural human languages.",
+      formula: "Data + Machine Learning Models + Computing Power = Artificial Intelligence",
+      steps: [
+        "Data Collection: Feeding diverse examples of text, speech, or images to the algorithm.",
+        "Model Training: Recognizing statistical patterns to understand grammar, facts, and concepts.",
+        "Reasoning & Response: Synthesizing customized answers and explanations in real-time."
+      ],
+      realWorld: "Just like Vidyora AI explains tough science topics in Santali and Odia, smart assistants understand speech and recommend study plans.",
+      practiceQuestion: "What is the primary goal of AI in education? (Answer: Personalized, adaptive tutoring for every student)",
+      suggestedQuizTopic: "Computer Science & Artificial Intelligence"
+    },
+    or: {
+      topic: "କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା ବା ଏଆଇ (Artificial Intelligence)",
+      concept: "କୃତ୍ରିମ ବୁଦ୍ଧିମତ୍ତା (AI) ହେଉଛି କମ୍ପ୍ୟୁଟର ଏବଂ ମେସିନ୍ ଦ୍ୱାରା ମଣିଷ ପରି ଚିନ୍ତା କରିବା, ଶିଖିବା ଏବଂ ସମସ୍ୟାର ସମାଧାନ କରିବାର ଏକ ଅତ୍ୟାଧୁନିକ ପ୍ରଯୁକ୍ତିବିଦ୍ୟା ।",
+      formula: "ତଥ୍ୟ (Data) + ଆଲଗୋରିଦିମ୍ (Algorithms) = ଏଆଇ ବୁଦ୍ଧିମତ୍ତା",
+      steps: [
+        "ତଥ୍ୟ ସଂଗ୍ରହ ଓ ବିଶ୍ଳେଷଣ: ବିଭିନ୍ନ ବିଷୟରୁ ପ୍ରଶ୍ନ ଓ ଉତ୍ତରକୁ କମ୍ପ୍ୟୁଟର ମନେ ରଖେ ।",
+        "ଶିକ୍ଷଣ ଓ ପ୍ରଶିକ୍ଷଣ: ମେସିନ୍ ଲର୍ଣ୍ଣିଂ ମାଧ୍ୟମରେ ମଣିଷର ଭାଷା ବୁଝିବାର କ୍ଷମତା ହାସଲ କରେ ।",
+        "ସମସ୍ୟା ସମାଧାନ: ଛାତ୍ରଛାତ୍ରୀଙ୍କ ସନ୍ଦେହକୁ ନିଜ ଆଞ୍ଚଳିକ ଭାଷାରେ ସରଳ ଭାବେ ବୁଝାଏ ।"
+      ],
+      realWorld: "ଯେପରି ବିଦ୍ୟୋରା ଏଆଇ ଆପଣଙ୍କ ପ୍ରଶ୍ନକୁ ଓଡ଼ିଆ ଓ ସାନ୍ତାଳୀ ଭାଷାରେ ସରଳ ପଏଣ୍ଟ ଆକାରରେ ବୁଝାଉଛି, ଏହା ଏଆଇ ପ୍ରଯୁକ୍ତିର ଏକ ବାସ୍ତବ ଉଦାହରଣ ।",
+      practiceQuestion: "ପାଠପଢାରେ ଏଆଇର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ କ’ଣ? (ଉତ୍ତର: ପ୍ରତ୍ୟେକ ପିଲାଙ୍କୁ ନିଜ ଭାଷାରେ ବ୍ୟକ୍ତିଗତ ଶିକ୍ଷା ଦେବା)",
+      suggestedQuizTopic: "କମ୍ପ୍ୟୁଟର ବିଜ୍ଞାନ ଓ ଏଆଇ"
+    },
+    sat: {
+      topic: "ᱮᱟᱭ (Artificial Intelligence) ᱪᱮᱫ ᱠᱟᱱᱟ?",
+      concept: "ᱮᱟᱭ (Artificial Intelligence / ᱠᱨᱤᱛᱨᱤᱢ ᱵᱩᱫᱷᱤ) ᱫᱚ ᱠᱚᱢᱯᱭᱩᱴᱚᱨ ᱟᱨ ᱢᱮᱥᱤᱱ ᱨᱮᱱᱟᱜ ᱚᱱᱟ ᱫᱟᱲᱮ ᱠᱟᱱᱟ, ᱡᱟᱦᱟᱸ ᱛᱮ ᱢᱟᱹᱱᱢᱤ ᱞᱮᱠᱟ ᱩᱭᱦᱟᱹᱨ, ᱪᱮᱫᱚᱜ ᱟᱨ ᱠᱩᱠᱞᱤ ᱨᱮᱱᱟᱜ ᱛᱮᱞᱟ ᱮᱢ ᱫᱟᱲᱮᱭᱟᱜ-ᱟ ᱾",
+      formula: "ᱰᱟᱴᱟ (Data) + ᱠᱚᱢᱯᱭᱩᱴᱚᱨ ᱢᱚᱰᱮᱞ = ᱮᱟᱭ ᱵᱩᱫᱷᱤ (Artificial Intelligence)",
+      steps: [
+        "ᱰᱟᱴᱟ ᱡᱟᱣᱨᱟ: ᱟᱹᱰᱤ ᱜᱟᱱ ᱯᱩᱛᱷᱤ, ᱥᱟᱬᱮᱥ ᱟᱨ ᱯᱟᱹᱨᱥᱤ ᱨᱮᱱᱟᱜ ᱠᱟᱛᱷᱟ ᱠᱚ ᱠᱚᱢᱯᱭᱩᱴᱚᱨ ᱨᱮ ᱥᱮᱞᱮᱫᱚᱜ-ᱟ ᱾",
+        "ᱪᱮᱫᱚᱜ ᱦᱚᱨᱟ: ᱢᱮᱥᱤᱱ ᱞᱟᱨᱱᱤᱝ (Machine Learning) ᱛᱮ ᱥᱟᱱᱛᱟᱲᱤ, ᱩᱰᱤᱭᱟᱹ ᱟᱨ ᱤᱝᱨᱟᱹᱡᱤ ᱯᱟᱹᱨᱥᱤ ᱵᱩᱡᱷᱟᱹᱣ ᱨᱮᱱᱟᱜ ᱫᱟᱲᱮ ᱧᱟᱢᱟ ᱾",
+        "ᱛᱮᱞᱟ ᱮᱢ: ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ᱠᱚᱣᱟᱜ ᱠᱩᱠᱞᱤ ᱟᱸᱡᱚᱢ ᱠᱟᱛᱮ ᱥᱚᱡᱷᱮ ᱟᱨ ᱥᱚᱦᱚᱡᱽ ᱛᱮ ᱯᱚᱭᱮᱱᱴ-ᱴᱩ-ᱯᱚᱭᱮᱱᱴ ᱛᱮᱞᱟ ᱵᱮᱱᱟᱣᱟ ᱾"
+      ],
+      realWorld: "ᱪᱮᱫ ᱞᱮᱠᱟ ᱵᱤᱫᱽᱭᱳᱨᱟ ᱮᱟᱭ (Vidyora AI) ᱟᱢᱟᱜ ᱠᱩᱠᱞᱤ ᱟᱸᱡᱚᱢ ᱠᱟᱛᱮ ᱚᱞ ᱪᱤᱠᱤ ᱛᱮ ᱥᱟᱬᱮᱥ ᱵᱩᱡᱷᱟᱹᱣ ᱮᱢᱟᱢ ᱠᱟᱱᱟ, ᱱᱚᱣᱟ ᱜᱮ ᱮᱟᱭ ᱨᱮᱱᱟᱜ ᱫᱟᱹᱭᱠᱟᱹ ᱠᱟᱱᱟ ᱾",
+      practiceQuestion: "ᱯᱚᱲᱦᱚᱱ ᱨᱮ ᱮᱟᱭ ᱪᱮᱫ ᱞᱮᱠᱟ ᱜᱚᱲᱚᱭ ᱮᱢᱟ? (ᱛᱮᱞᱟ: ᱡᱚᱛᱚ ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ᱟᱠᱚᱣᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱟᱞᱜᱟ ᱛᱮ ᱯᱟᱲᱦᱟᱣ ᱫᱟᱲᱮᱭᱟᱜ-ᱟ ᱠᱚ)",
+      suggestedQuizTopic: "Computer Science & AI"
+    }
+  },
+  general: {
+    en: {
+      topic: "Curriculum Concepts & Doubt Solving",
+      concept: "Understanding fundamentals through step-by-step reasoning helps build strong conceptual mastery.",
+      formula: "Concept + Practice + Revision = Academic Excellence",
+      steps: [
+        "Identify the core learning objective and underlying principles.",
+        "Break down complex problems into small, manageable steps.",
+        "Apply knowledge with interactive practice challenges."
+      ],
+      realWorld: "Learning step-by-step is like climbing a staircase: each step brings you closer to the top.",
+      practiceQuestion: "What is the best way to master any new topic? (Answer: Regular revision and solving practice problems)",
+      suggestedQuizTopic: "General Academic Concepts"
+    },
+    or: {
+      topic: "ପାଠ୍ୟକ୍ରମ ଧାରଣା ଓ ସନ୍ଦେହ ସମାଧାନ",
+      concept: "ନିୟମିତ ଅଭ୍ୟାସ ଏବଂ ମୂଳ ଧାରଣାକୁ ପଏଣ୍ଟ ଆକାରରେ ବୁଝିବା ଦ୍ୱାରା ପରୀକ୍ଷାରେ ଉଚ୍ଚ ମାର୍କ ମିଳିଥାଏ ।",
+      formula: "ଧାରଣା + ନିୟମିତ ଅଭ୍ୟାସ + ପୁନରାବୃତ୍ତି = ସଫଳତା",
+      steps: [
+        "ପ୍ରଥମେ ବିଷୟଟିର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ ଏବଂ ସୂତ୍ରକୁ ଧ୍ୟାନର ସହ ବୁଝନ୍ତୁ ।",
+        "କଠିନ ପ୍ରଶ୍ନକୁ ଛୋଟ ଛୋଟ ପଦକ୍ଷେପରେ ବିଭାଜନ କରି ସମାଧାନ କରନ୍ତୁ ।",
+        "ନିୟମିତ କୁଇଜ୍ ଦେଇ ନିଜର ଦୁର୍ବଳ ଅଧ୍ୟାୟକୁ ସୁଧାରନ୍ତୁ ।"
+      ],
+      realWorld: "ଯେପରି ଗୋଟିଏ ଗୋଟିଏ ପାହାଚ ଚଢ଼ି ଛାତ ଉପରକୁ ଯାଇହୁଏ, ସେହିପରି ଗୋଟିଏ ଗୋଟିଏ ପଏଣ୍ଟ ବୁଝିଲେ ପାଠ ସହଜ ହୋଇଯାଏ ।",
+      practiceQuestion: "କୌଣସି ବିଷୟରେ ଦକ୍ଷତା ହାସଲ କରିବାର ଉତ୍ତମ ଉପାୟ କ’ଣ? (ଉତ୍ତର: ନିୟମିତ ପୁନରାବୃତ୍ତି ଓ ଅଭ୍ୟାସ)",
+      suggestedQuizTopic: "ପାଠ୍ୟକ୍ରମ ମୂଳଧାରଣା"
+    },
+    sat: {
+      topic: "ᱵᱤᱫᱽᱭᱳᱨᱟ ᱮᱟᱭ ᱥᱟᱱᱛᱟᱲᱤ ᱪᱮᱫᱚᱜ ᱦᱚᱨᱟ (Vidyora AI Santali Learning)",
+      concept: "ᱡᱟᱦᱟᱸᱱᱟᱜ ᱥᱟᱛᱟᱢ ᱜᱮ ᱢᱤᱫ-ᱢᱤᱫ ᱛᱮ ᱯᱚᱭᱮᱱᱴ ᱞᱮᱠᱟᱛᱮ ᱵᱩᱡᱷᱟᱹᱣ ᱞᱮᱠᱷᱟᱱ ᱵᱤᱱᱤᱰ (Exam) ᱨᱮ ᱵᱷᱟᱹᱜᱤ ᱱᱚᱢᱵᱚᱨ ᱧᱟᱢᱚᱜ-ᱟ ᱾",
+      formula: "ᱥᱟᱬᱮᱥ ᱵᱩᱡᱷᱟᱹᱣ + ᱫᱤᱱᱟᱹᱢ ᱚᱵᱷᱭᱟᱥ = ᱥᱚᱨᱮᱥ ᱚᱨᱡᱚ",
+      steps: [
+        "ᱯᱩᱭᱞᱩ ᱨᱮ ᱥᱟᱛᱟᱢ ᱨᱮᱱᱟᱜ ᱢᱩᱬᱩᱛ ᱠᱟᱛᱷᱟ ᱵᱩᱡᱷᱟᱹᱣ ᱦᱩᱭᱩᱜ-ᱟ ᱾",
+        "ᱟᱸᱴ ᱠᱩᱠᱞᱤ ᱠᱚ ᱠᱟᱹᱴᱤᱡ ᱠᱟᱹᱴᱤᱡ ᱯᱟᱹᱣᱞᱤ (Steps) ᱨᱮ ᱦᱟᱹᱴᱤᱧ ᱠᱟᱛᱮ ᱥᱚᱞᱦᱮ ᱢᱮ ᱾",
+        "ᱫᱤᱱᱟᱹᱢ ᱠᱩᱭᱤᱡᱽ ᱮᱢ ᱠᱟᱛᱮ ᱟᱢᱟᱜ ᱠᱚᱢᱡᱳᱨ ᱥᱟᱛᱟᱢ ᱠᱚ ᱥᱩᱫᱷᱟᱹᱨ ᱢᱮ ᱾"
+      ],
+      realWorld: "ᱪᱮᱫ ᱞᱮᱠᱟ ᱢᱤᱫ-ᱢᱤᱫ ᱯᱟᱹᱣᱞᱤ ᱛᱮ ᱩᱥᱩᱞ ᱵᱩᱨᱩ ᱪᱮᱛᱟᱱ ᱨᱟᱠᱟᱵ ᱜᱟᱱᱚᱜ-ᱟ, ᱚᱱᱠᱟ ᱜᱮ ᱢᱤᱫ-ᱢᱤᱫ ᱯᱚᱭᱮᱱᱴ ᱵᱩᱡᱷᱟᱹᱣ ᱞᱮᱠᱷᱟᱱ ᱯᱟᱲᱦᱟᱣ ᱟᱹᱰᱤ ᱟᱞᱜᱟᱜ-ᱟ ᱾",
+      practiceQuestion: "ᱯᱟᱲᱦᱟᱣ ᱨᱮ ᱡᱚᱛᱚ ᱠᱷᱚᱱ ᱵᱷᱟᱹᱜᱤ ᱦᱚᱨᱟ ᱫᱚ ᱪᱮᱫ? (ᱛᱮᱞᱟ: ᱫᱤᱱᱟᱹᱢ ᱚᱵᱷᱭᱟᱥ ᱟᱨ ᱩᱭᱦᱟᱹᱨ ᱫᱚᱦᱚ)",
+      suggestedQuizTopic: "Santali General Learning"
+    }
   }
 };
 
@@ -207,11 +331,10 @@ function sanitizePointToPoint(rawText, language = 'or') {
 }
 
 const GEMINI_CASCADE_MODELS = [
-  'gemini-flash-latest',
-  'gemini-3.5-flash-lite',
   'gemini-2.5-flash',
-  'gemini-3.1-flash-lite',
-  'gemini-flash-lite-latest',
+  'gemini-flash-latest',
+  'gemini-2.5-pro',
+  'gemini-2.5-flash-lite',
   'gemini-3.5-flash'
 ];
 
@@ -249,7 +372,15 @@ class AiTutoringService {
 
   // 1. FAST CHATBOT & TUTORING (Groq LLM with Vidyora AI & Regional Knowledge Fallbacks)
   async generateChatExplanation({ message, language = 'or', classLevel = 'Class 8', subject = 'Science' }) {
-    const langLabel = language === 'sat' ? 'Santali (ᱥᱟᱱᱛᱟᱲᱤ)' : language === 'or' ? 'Odia (ଓଡ଼ିଆ)' : 'English';
+    // Auto-detect Santali if query contains Ol Chiki script or Santali keywords
+    if (language !== 'sat') {
+      const isSantali = /[\u1C50-\u1C7F]/.test(message) || /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ|santali\s+te|olchiki/i.test(message);
+      if (isSantali) {
+        language = 'sat';
+      }
+    }
+
+    const langLabel = language === 'sat' ? 'Santali (ᱥᱟᱱᱛᱟᱲᱤ)' : language === 'or' ? 'Odia (ଓଡ଼ᱤଆ)' : 'English';
     const workflowSteps = [
       { step: 'Understanding Query & Context', status: 'completed' },
       { step: 'Querying Curriculum Knowledge Graph', status: 'completed' },
@@ -258,12 +389,53 @@ class AiTutoringService {
     ];
 
     // Check if student asked for a visual diagram or illustration
-    const isDiagramRequest = /diagram|image|picture|ଚିତ୍ର|ଡାୟାଗ୍ରାମ୍|photo|draw|illustration|structure/i.test(message);
+    const isDiagramRequest = /diagram|image|picture|ᱪᱤᱛᱨ|ଡାୟାଗ୍ରାମ୍|photo|draw|illustration|structure/i.test(message);
     const diagram = isDiagramRequest
       ? await getEducationalDiagramData({ topic: message, subject, classLevel, language })
       : null;
 
-    // Priority 1: Ultra-fast Groq LPU API
+    // Priority 1 for Santali: Native Google Gemini 2.5 Flash for high-accuracy Ol Chiki script
+    if (language === 'sat' && this.genAI) {
+      try {
+        const prompt = `You are Vidyora AI, an empathetic agentic personal tutor for school students in Odisha.
+Student Grade: ${classLevel}
+Subject: ${subject}
+Preferred Language: Santali (ᱥᱟᱱᱛᱟᱲᱤ in Ol Chiki script)
+
+CRITICAL INSTRUCTIONS (MANDATORY):
+1. ALWAYS present your answer strictly in natural, student-friendly Santali language using authentic Ol Chiki (ᱚᱞ ᱪᱤᱠᱤ) script.
+2. Structure your explanation strictly on a clean, student-friendly POINT-TO-POINT basis (e.g. 1., 2., 3., 4., 5., 6.).
+3. You may provide English or Odia technical terms in parentheses where helpful (e.g. Photosynthesis / ᱯᱷᱚᱴᱚᱥᱤᱱᱛᱷᱮᱥᱤᱥ).
+4. NEVER use markdown header hashes like #, ##, ###.
+5. NEVER use divider lines like ---.
+6. Outline:
+   - Point 1: Core Concept explanation in simple Santali
+   - Point 2: Key formula / equation (if applicable)
+   - Point 3: Step-by-step working / explanation
+   - Point 4: Daily life real-world analogy
+   - Point 5: Quick revision summary
+   - Point 6: Interactive practice question
+
+Student Query: "${message}"`;
+
+        const geminiRes = await this.callGeminiGenerate(prompt);
+        if (geminiRes?.text) {
+          return {
+            explanation: sanitizePointToPoint(geminiRes.text, 'sat'),
+            language: 'sat',
+            workflowSteps,
+            diagram,
+            isAiLive: true,
+            modelUsed: 'Vidyora AI Santali Engine (Gemini 2.5 Flash)',
+            suggestedQuizTopic: `${subject} - ${classLevel}`
+          };
+        }
+      } catch (geminiError) {
+        console.warn('[Vidyora AI] Gemini Santali engine notice, checking fallbacks:', geminiError.message);
+      }
+    }
+
+    // Priority 1 for Odia/English: Ultra-fast Groq LPU API
     if (this.groqApiKey) {
       try {
         const groqResult = await this.callGroqChat({ message, language, classLevel, subject });
@@ -283,7 +455,7 @@ class AiTutoringService {
       }
     }
 
-    // Priority 2: Vidyora AI Engine
+    // Priority 2: Vidyora AI Gemini Engine
     if (this.genAI) {
       try {
         const langPrompt = language === 'sat'
@@ -332,14 +504,23 @@ Student Query: "${message}"`;
 
     // Priority 3: High quality deterministic fallback knowledge engine (Point-by-point, zero symbols)
     const lowerQuery = message.toLowerCase();
-    let topicMatch = 'photosynthesis';
-    if (lowerQuery.includes('motion') || lowerQuery.includes('newton') || lowerQuery.includes('force') || lowerQuery.includes('ଗତି') || lowerQuery.includes('ବଳ') || lowerQuery.includes('ᱫᱟᱲᱮ') || lowerQuery.includes('ᱜᱚᱛᱤ')) {
+    let topicMatch = 'general';
+    if (lowerQuery.includes('photo') || lowerQuery.includes('leaf') || lowerQuery.includes('plant') || lowerQuery.includes('ସୂର୍ଯ୍ୟାଲୋକ') || lowerQuery.includes('ଆଲୋକ') || lowerQuery.includes('ᱫᱟᱨᱮ') || lowerQuery.includes('ᱯᱷᱚᱴᱚ') || lowerQuery.includes('ᱥᱟᱠᱟᱢ')) {
+      topicMatch = 'photosynthesis';
+    } else if (lowerQuery.includes('motion') || lowerQuery.includes('newton') || lowerQuery.includes('force') || lowerQuery.includes('ଗତି') || lowerQuery.includes('ବଳ') || lowerQuery.includes('ᱫᱟᱲᱮ') || lowerQuery.includes('ᱜᱚᱛᱤ')) {
       topicMatch = 'newton';
     } else if (lowerQuery.includes('pythagoras') || lowerQuery.includes('triangle') || lowerQuery.includes('hypotenuse') || lowerQuery.includes('ପିଥାଗୋରାସ') || lowerQuery.includes('ତ୍ରିଭୁଜ') || lowerQuery.includes('math') || lowerQuery.includes('ᱛᱤᱨᱠᱷᱚᱸᱰ') || lowerQuery.includes('ᱯᱟᱭᱛᱷᱟᱜᱳᱨᱟᱥ')) {
       topicMatch = 'pythagoras';
+    } else if (lowerQuery.includes('cell') || lowerQuery.includes('କୋଷ') || lowerQuery.includes('ᱠᱳᱥ') || lowerQuery.includes('animal') || lowerQuery.includes('ᱡᱤᱵᱽ')) {
+      topicMatch = 'cell';
+    } else if (lowerQuery.includes('ai') || lowerQuery.includes('intelligence') || lowerQuery.includes('computer') || lowerQuery.includes('robot') || lowerQuery.includes('ᱮᱟᱭ') || lowerQuery.includes('ᱠᱚᱢᱯᱭᱩᱴᱚᱨ')) {
+      topicMatch = 'ai';
     }
 
-    const kb = REGIONAL_KNOWLEDGE_BASE[topicMatch][language] || REGIONAL_KNOWLEDGE_BASE[topicMatch]['en'];
+    const kb = (REGIONAL_KNOWLEDGE_BASE[topicMatch] && REGIONAL_KNOWLEDGE_BASE[topicMatch][language])
+      || (REGIONAL_KNOWLEDGE_BASE[topicMatch] && REGIONAL_KNOWLEDGE_BASE[topicMatch]['en'])
+      || REGIONAL_KNOWLEDGE_BASE.general[language]
+      || REGIONAL_KNOWLEDGE_BASE.general['en'];
 
     let formattedExplanation = '';
     if (language === 'sat') {
@@ -384,7 +565,7 @@ Student Query: "${message}"`;
 
   // Helper method to query Groq API
   async callGroqChat({ message, language, classLevel, subject }) {
-    const modelsToTry = ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'openai/gpt-oss-20b'];
+    const modelsToTry = ['qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b'];
     const langLabel = language === 'sat' ? 'Santali (ᱥᱟᱱᱛᱟᱲᱤ in Ol Chiki script)' : language === 'or' ? 'Odia (ଓଡ଼ିଆ)' : 'English';
     const langInstruction = language === 'sat'
       ? 'Respond in natural, grammatically correct Santali (ᱥᱟᱱᱛᱟᱲᱤ language in Ol Chiki script, with English or Odia technical terms in brackets where helpful).'

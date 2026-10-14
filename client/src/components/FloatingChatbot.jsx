@@ -171,6 +171,13 @@ export default function FloatingChatbot() {
     if (isListening) stopListening();
     setShowSavedPicker(false);
 
+    // Auto-detect Santali query from Ol Chiki script or Santali keywords
+    const isSantaliQuery = /[\u1C50-\u1C7F]/.test(query) || /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ|santali\s+te/i.test(query);
+    const langToUse = isSantaliQuery ? 'sat' : selectedLanguage;
+    if (isSantaliQuery && selectedLanguage !== 'sat') {
+      setSelectedLanguage('sat');
+    }
+
     const userMsg = {
       role: 'user',
       content: query.trim(),
@@ -183,10 +190,14 @@ export default function FloatingChatbot() {
     try {
       const res = await aiAPI.askChat({
         message: query.trim(),
-        language: selectedLanguage,
+        language: langToUse,
         classLevel: user?.classLevel || 'Class 8',
         subject: 'General',
       });
+
+      if (res.data.language && res.data.language !== selectedLanguage) {
+        setSelectedLanguage(res.data.language);
+      }
 
       setMessages((prev) => [
         ...prev,
@@ -654,7 +665,13 @@ export default function FloatingChatbot() {
               <input
                 type="text"
                 value={inputMessage}
-                onChange={(e) => setInputMessage(e.target.value)}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setInputMessage(val);
+                  if (/[\u1C50-\u1C7F]/.test(val) || /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ/i.test(val)) {
+                    if (selectedLanguage !== 'sat') setSelectedLanguage('sat');
+                  }
+                }}
                 placeholder={
                   selectedLanguage === 'sat'
                     ? 'ᱱᱚᱸᱰᱮ ᱠᱩᱠᱞᱤ ᱚᱞ ᱢᱮ (Type question in Santali/English)...'

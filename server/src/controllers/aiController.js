@@ -15,9 +15,15 @@ exports.chat = async (req, res) => {
       return res.status(400).json({ message: 'Query message is required' });
     }
 
+    const trimmedMsg = message.trim();
+    // Auto-detect Santali (Ol Chiki script or Santali keywords)
+    const hasOlChiki = /[\u1C50-\u1C7F]/.test(trimmedMsg);
+    const requestsSantali = /santali|santhali|ol\s*chiki|ᱥᱟᱱᱛᱟᱲᱤ|ᱥᱟᱱᱛᱟᱞᱤ|santali\s+te|olchiki/i.test(trimmedMsg);
+    const targetLanguage = (hasOlChiki || requestsSantali) ? 'sat' : language;
+
     const aiResult = await aiTutoringService.generateChatExplanation({
-      message: message.trim(),
-      language,
+      message: trimmedMsg,
+      language: targetLanguage,
       classLevel,
       subject,
     });
