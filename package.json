@@ -1,0 +1,24 @@
+{
+  "name": "vidyora-ai",
+  "version": "1.0.0",
+  "description": "Vidyora AI — An Agentic AI-Powered Personalized Learning Platform (NEXTECH 2.0)",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "postinstall": "npm --prefix client install && npm --prefix server install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^9.2.5",
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "nodemailer": "^10.1.0"
+  }
+}

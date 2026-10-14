@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0E1B30;
+  --navy-light: #162943;
+  --teal: #26C4B1;
+  --orange: #FFAA4D;
+  --bg-light: #F3F6FA;
+}
+
+@layer base {
+  html {
+    font-size: 16.5px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #F3F6FA;
+    color: #243447;
+    overflow-x: hidden;
+    line-height: 1.65;
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Oriya', 'Inter', system-ui, sans-serif;
+  }
+
+  /* Enhanced Odia text display with comfortable size and line-height for complex matras */
+  :lang(or), [lang="or"], .font-odia {
+    font-family: 'Noto Sans Oriya', 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.06em;
+    line-height: 1.85;
+    letter-spacing: 0.015em;
+  }
+
+  p, li {
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.glass-panel-dark {
+  background: rgba(14, 27, 48, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(38, 196, 177, 0.15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px -10px rgba(14, 27, 48, 0.12), 0 0 15px rgba(38, 196, 177, 0.1);
+  border-color: rgba(38, 196, 177, 0.4);
+}
+
+/* 3D button effects */
+.btn-3d {
+  position: relative;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 4px 0 0 #0b1526;
+}
+
+.btn-3d:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 #0b1526;
+}
+
+.btn-3d-teal {
+  position: relative;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 4px 0 0 #1b9082;
+}
+
+.btn-3d-teal:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 #1b9082;
+}
+
+.btn-3d-orange {
+  position: relative;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 4px 0 0 #cc7826;
+}
+
+.btn-3d-orange:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 #cc7826;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #E2E8F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748B;
+}
+
+/* Subtle Animated Background Gradients */
+.gradient-bg {
+  background: radial-gradient(circle at 15% 20%, rgba(38, 196, 177, 0.12) 0%, transparent 40%),
+              radial-gradient(circle at 85% 80%, rgba(255, 170, 77, 0.1) 0%, transparent 40%),
+              #F3F6FA;
+}
+
+.dark-gradient-bg {
+  background: radial-gradient(circle at 20% 20%, rgba(38, 196, 177, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(255, 170, 77, 0.1) 0%, transparent 50%),
+              #0E1B30;
+}
+
+/* Hide scrollbar utility for clean horizontal navigation */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+/* Sleek, visible horizontal scroller for Navbar */
+.nav-horizontal-scroller {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #26C4B1 rgba(226, 232, 240, 0.8);
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-horizontal-scroller::-webkit-scrollbar {
+  height: 5px;
+  display: block;
+}
+
+.nav-horizontal-scroller::-webkit-scrollbar-track {
+  background: rgba(226, 232, 240, 0.8);
+  border-radius: 9999px;
+  margin: 0 4px;
+}
+
+.nav-horizontal-scroller::-webkit-scrollbar-thumb {
+  background: #26C4B1;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(38, 196, 177, 0.3);
+}
+
+.nav-horizontal-scroller::-webkit-scrollbar-thumb:hover {
+  background: #1b9082;
+}
+
+/* Mobile & Touch Ergonomics */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, a, select, input, [role="button"] {
+  touch-action: manipulation;
+}
+
+@media (max-width: 640px) {
+  /* Prevent iOS zoom-on-focus on input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
+
+/* Safe area insets for mobile notched devices */
+.safe-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-pt {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
